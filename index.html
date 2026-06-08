@@ -13,8 +13,14 @@
     font-family:Arial,sans-serif;
 }
 
-body{
+html, body{
     background:#000;
+    margin:0;
+    padding:0;
+    min-height:100%;
+}
+
+body{
     display:flex;
     justify-content:center;
     align-items:center;
@@ -74,10 +80,12 @@ body{
     font-weight:bold;
     border-radius:10px;
     box-shadow:0 0 10px rgba(255,152,0,.5);
+    transition:0.3s;
 }
 
 .btn:hover{
     opacity:0.9;
+    transform:scale(1.03);
 }
 
 .footer{
