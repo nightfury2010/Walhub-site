@@ -13,7 +13,7 @@
     font-family:Arial,sans-serif;
 }
 
-body}
+body{
     background:#000;
     display:flex;
     justify-content:center;
@@ -100,27 +100,27 @@ body}
     <div class="title">පහලින් Video එක බලන්න</div>
 
     <div class="desc">
-        Site එකේ Traffic වැඩි නිසා සමහර වෙලාවට Link වැඩ නැ.
+        Site එකේ Traffic වැඩි නිසා සමහර වෙලාවට Link වැඩ නැ.<br>
         ඒ නිසා Link 4ම Check කරන්න.
     </div>
 
     <a href="#" class="btn"
-       onclick="openAd('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf');return false;">
+       onclick="window.open('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf','_blank'); return false;">
        LINK 1
     </a>
 
     <a href="#" class="btn"
-       onclick="openAd('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf');return');return false;">
+       onclick="window.open('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf','_blank'); return false;">
        LINK 2
     </a>
 
     <a href="#" class="btn"
-       onclick="openAd('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf');return false;">
+       onclick="window.open('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf','_blank'); return false;">
        LINK 3
     </a>
 
     <a href="#" class="btn"
-       onclick="openAd('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf');return false;">
+       onclick="window.open('https://www.effectivecpmnetwork.com/ypk5u15p?key=fa46472c90754222ee13a7f149fd7bcf','_blank'); return false;">
        LINK 4
     </a>
 
@@ -130,18 +130,5 @@ body}
 
 </div>
 
-<script>
-function openAd(adUrl, videoUrl){
-
-    // Open Ad in new tab
-    window.open(adUrl, "_blank");
-
-    // Redirect to video after 5 seconds
-    setTimeout(function(){
-        window.location.href = videoUrl;
-    }, 5000);
-}
-</script>
-
 </body>
-  </html>
+</html>
